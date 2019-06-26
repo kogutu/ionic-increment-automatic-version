@@ -2,6 +2,6 @@
 Auto increment ionic version before build cordova 
 
 Paste below code to your config.xml and create folder"/script" on root ionic project and paste file IncrementIonicVersion.js .
-__
-<hook src="scripts/IncrementIonicVersion.js" type="before_build"/>
-__
+...
+`<hook src="scripts/IncrementIonicVersion.js" type="before_build"/>`
+...
